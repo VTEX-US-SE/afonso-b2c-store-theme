@@ -19,6 +19,7 @@
     "vtex.binding-selector": "2.x"
   },
   "dependencies": {
+    "vtex.seller-selector": "0.x",
     "vtex.telemarketing": "2.x",
     "vtex.store": "2.x",
     "vtex.order-placed": "1.x",
