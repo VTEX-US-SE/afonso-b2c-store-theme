@@ -16,12 +16,8 @@
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "assets/chrome1.png",
-          "customInternalURL": "/chrome/"
-        },
-        {
-          "image": "assets/vintage1.png",
-          "customInternalURL": "/vintage/"
+          "image": "assets/guitar1.jpg",
+          "customInternalURL": "/top-musical-instruments-and-gear/"
         }
       ],
       "height": 440,

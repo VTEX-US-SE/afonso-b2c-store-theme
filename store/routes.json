@@ -1,6 +1,6 @@
 {
-  "store.custom#styles": {
-    "path": "/styles"
+  "store.custom#top": {
+    "path": "/top-musical-instruments-and-gear/"
   },
   "store.custom#live": {
     "path": "/live"
