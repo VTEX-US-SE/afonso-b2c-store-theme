@@ -125,7 +125,7 @@
 
   "info-card#depbanner": {
     "props": {
-      "imageUrl": "https://image.shutterstock.com/z/stock-photo-party-with-best-friends-group-of-cheerful-young-people-enjoying-home-party-with-snacks-and-drinks-492006757.jpg",
+      "imageUrl": "assets/photo.jpg",
       "callToActionMode": "none",
       "isFullModeStyle": true,
       "headline": " ",
