@@ -3,7 +3,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "seller-table",
+      "flex-layout.row#seller-table",
       "shelf#related"
     ]
   },
@@ -92,9 +92,9 @@
       "product-name",
       "product-price#product-details",
       "sku-selector",
+      "flex-layout.row#assembly-options",
       "flex-layout.row#buy-button",
-      "shipping-simulator",
-      "share#default"
+      "shipping-simulator"
     ]
   },
 
@@ -122,5 +122,12 @@
         "Pinterest": true
       }
     }
+  },
+
+  "flex-layout.row#seller-table": {
+    "props": {
+      "marginTop": 20
+    },
+    "children": ["seller-table"]
   }
 }

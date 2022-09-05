@@ -28,7 +28,6 @@
 
   "flex-layout.row#slider": {
     "children": [
-      //"slider-layout#styles",
       "carousel#home"
     ]
   },
@@ -64,7 +63,7 @@
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByPriceDESC",
-      "collection": "147",
+      "collection": "139",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
         "maxItems": 9,
@@ -72,7 +71,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Clearance"
+        "titleText": "Guitars to rock"
       }
     }
   }

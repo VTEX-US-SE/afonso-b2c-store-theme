@@ -1,17 +1,31 @@
 {
   "store.custom#top": {
     "blocks": [
-      "image#top-main-image",
+      "flex-layout.row#slider-top",
       "shelf#styles",
       "flex-layout.row#pink",
       "search-result-layout.customQuery"
     ]
   },
 
-  "image#top-main-image": {
+  "flex-layout.row#slider-top": {
+    "children": [
+      "carousel#top"
+    ]
+  },
+
+  "carousel#top": {
     "props": {
-      "src": "assets/top-musical.jpg",
-      "maxHeight": 440
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "assets/top-musical.jpg"
+        }
+      ],
+      "height": 440,
+      "showArrows": false,
+      "showDots": false
     }
   },
 
@@ -19,6 +33,7 @@
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "shelfStyles",
       "paginationDotsVisibility": "never",
       "collection": "137",
       "productList": {
