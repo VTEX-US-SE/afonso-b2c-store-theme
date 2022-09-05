@@ -1,3 +1,13 @@
 .productAssemblyOptionItemImage {
   max-width: none;
 }
+
+.productAssemblyOptionItemName {
+  font-size: .8rem;
+  font-family: Arial, 'sans-serif';
+}
+
+.productAssemblyOptionItemPrice {
+  margin-top: 8px;
+  font-size: .9rem;
+}

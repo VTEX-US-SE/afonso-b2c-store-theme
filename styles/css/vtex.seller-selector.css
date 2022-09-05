@@ -1,0 +1,12 @@
+.sellerMasterContainer :global(.vtex-store-components-3-x-productNameContainer) {
+  display: none;
+}
+
+.simulateShipping {
+  margin-top: 0;
+  border-radius: 0;
+}
+
+.simulateShipping :global(.vtex-address-form__postalCode){
+  padding-bottom: 0;
+}
