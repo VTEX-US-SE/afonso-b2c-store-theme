@@ -28,8 +28,7 @@
 
   "header-row#4-desktop": {
     "children": [
-      "logo#desktop",
-      "binding-selector"
+      "logo#desktop"
     ],
     "props": {
       "sticky": true,
