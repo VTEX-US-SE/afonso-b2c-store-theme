@@ -4,7 +4,6 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "product-specification-group#table",
-      //"flex-layout.row#seller-table",
       "shelf#related"
     ]
   },

@@ -2,14 +2,27 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#slider",
-      "twitter-cards",
       "shelf#new-arrivals",
+      "video#home",
       "shelf#clearance",
       "flex-layout.row#newsletter",
       "rich-text#brands",
       "flex-layout.row#brands"
     ]
   },
+
+  "video#home": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=KRLwsSbqlwo",
+      "blockClass": "videoEl"
+    }
+  },
+
 
   "carousel#home": {
     "props": {
