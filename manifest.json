@@ -1,7 +1,7 @@
 {
   "vendor": "afonsopraca",
   "name": "store-theme",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -16,7 +16,8 @@
   "peerDependencies": {
     "vtex.store-locator": "0.x",
     "vtexventures.livestreaming-free": "0.x",
-    "vtex.binding-selector": "2.x"
+    "vtex.binding-selector": "2.x",
+    "vtexventures.personal-shopper-free": "0.x"
   },
   "dependencies": {
     "vtex.seller-selector": "0.x",

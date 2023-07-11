@@ -92,6 +92,7 @@
       "product-name",
       "product-price#product-details",
       "sku-selector",
+      "vtexventures.personal-shopper-free@0.x:ps-product",
       "flex-layout.row#assembly-options",
       "flex-layout.row#buy-button",
       "shipping-simulator"
