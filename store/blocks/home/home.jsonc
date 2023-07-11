@@ -3,7 +3,8 @@
     "blocks": [
       "flex-layout.row#slider",
       "shelf#new-arrivals",
-      "video#home",
+      "flex-layout.row#slider2",
+      //"video#home",
       "shelf#clearance",
       "flex-layout.row#newsletter",
       "rich-text#brands",
@@ -40,9 +41,31 @@
     }
   },
 
+  "carousel#home2": {
+    "props": {
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "assets/guitar-day.jpg",
+          "customInternalURL": "/live/"
+        }
+      ],
+      "height": 440,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+
   "flex-layout.row#slider": {
     "children": [
       "carousel#home"
+    ]
+  },
+
+  "flex-layout.row#slider2": {
+    "children": [
+      "carousel#home2"
     ]
   },
 
