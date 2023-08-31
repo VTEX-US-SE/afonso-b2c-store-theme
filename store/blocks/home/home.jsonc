@@ -84,7 +84,7 @@
     "props": {
       "orderBy": "OrderByPriceDESC",
       "paginationDotsVisibility": "desktopOnly",
-      "collection": "148",
+      "collection": "137",
       "productList": {
         "maxItems": 9,
         "itemsPerPage": 3,
@@ -100,8 +100,8 @@
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByPriceDESC",
-      "collection": "139",
       "paginationDotsVisibility": "desktopOnly",
+      "collection": "139",
       "productList": {
         "maxItems": 9,
         "itemsPerPage": 3,
