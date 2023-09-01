@@ -95,11 +95,14 @@
 .flexRow--product-main {
   color: #727273
 }
-/*
+
+
 .flexRow--assembly-options {
-  color: #717786;
+  /* color: #717786;
   line-height: 1.25rem;
   border-style: solid;
   border-width: 1px;
-  padding: 10px;
-} */
+  padding: 10px; */
+  margin-bottom: 2rem;
+}
+
