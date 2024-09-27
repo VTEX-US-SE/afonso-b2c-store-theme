@@ -31,7 +31,7 @@
       "logo#desktop"
     ],
     "props": {
-      "sticky": true,
+      "sticky": false,
       "blockClass": "main-header"
     }
   },
